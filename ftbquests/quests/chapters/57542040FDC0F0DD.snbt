@@ -1,0 +1,17 @@
+{
+	id: "57542040FDC0F0DD"
+	group: ""
+	order_index: 6
+	filename: "57542040FDC0F0DD"
+	title: "Незеритовый век"
+	icon: {
+		id: "minecraft:netherite_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

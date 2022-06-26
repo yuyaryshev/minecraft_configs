@@ -1,0 +1,5 @@
+*.bak
+*.backup0
+cached.dat
+/worldedit/.archive-unpack
+/worldedit/sessions

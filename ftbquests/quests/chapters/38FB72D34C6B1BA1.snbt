@@ -1,0 +1,300 @@
+{
+	id: "38FB72D34C6B1BA1"
+	group: ""
+	order_index: 1
+	filename: "38FB72D34C6B1BA1"
+	title: "Каменный век"
+	icon: "minecraft:stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: -4.0d
+			hide_dependency_lines: false
+			dependencies: ["108C3E5AD1B76FDB"]
+			id: "085B2047C58A236C"
+			tasks: [{
+				id: "7EFF88FEFC0F3552"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "068C10A9EF23BA2D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 18.0d
+			y: -4.0d
+			hide_dependency_lines: false
+			dependencies: ["3DBACFF9BAAEEA42"]
+			id: "125D5124D951A27F"
+			tasks: [{
+				id: "7877913E9C2D3A41"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			hide_dependency_lines: false
+			dependencies: ["085B2047C58A236C"]
+			id: "6AF79168A5750DDF"
+			tasks: [{
+				id: "3A54E3781B5B51FB"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["363A0EBC00854DF4"]
+			id: "108C3E5AD1B76FDB"
+			tasks: [{
+				id: "3315E6BC7DC504D6"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["085B2047C58A236C"]
+			id: "5D633A2818A63448"
+			tasks: [{
+				id: "0BF2C807EC68E1B0"
+				type: "item"
+				item: {
+					id: "minecraft:stone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["5D633A2818A63448"]
+			id: "7770B8DED622C822"
+			tasks: [{
+				id: "021498AAA53E88DD"
+				type: "item"
+				item: "minecraft:ladder"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["6AF79168A5750DDF"]
+			id: "220FE164E2759F45"
+			tasks: [{
+				id: "16E109C92E0F5530"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			dependencies: ["220FE164E2759F45"]
+			id: "58AF5AA94D254D11"
+			tasks: [{
+				id: "1915F399BE295296"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["220FE164E2759F45"]
+			id: "62B78DB264F7B09A"
+			tasks: [{
+				id: "220793CA8A13E1C6"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			dependencies: ["220FE164E2759F45"]
+			id: "628DEF647973941B"
+			tasks: [{
+				id: "5129322C638DFF0B"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -4.0d
+			dependencies: ["628DEF647973941B"]
+			id: "3DBACFF9BAAEEA42"
+			tasks: [{
+				id: "4824C9F3F7685C80"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			dependencies: ["6AF79168A5750DDF"]
+			id: "4FB8D5EB2F229EE5"
+			tasks: [{
+				id: "79C34E105393B5EB"
+				type: "item"
+				item: "minecraft:cobbled_deepslate"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			dependencies: ["085B2047C58A236C"]
+			dependency_requirement: "all_started"
+			id: "5D7F76B3BB332AB2"
+			tasks: [{
+				id: "21DD6292FB84C4EB"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			dependencies: [
+				"5D7F76B3BB332AB2"
+				"220FE164E2759F45"
+			]
+			id: "6F7237B8347916AE"
+			tasks: [{
+				id: "699A8C100DB8DA06"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			dependencies: ["5D7F76B3BB332AB2"]
+			id: "1AA84593818F4C0E"
+			tasks: [{
+				id: "52CF0611A5BC29DD"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			title: "Описание модпака"
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"- Верстак недоступен"
+				"- Деревянные предметы крафтятся в сетке 2х2"
+				"- Поставьте автосборщики для крафта 3х3"
+				"- Крутите их ручкой через шестеренки"
+				"Не крутится? Перегруз?"
+				"Тогда попробуйте соеденить шестеренки правильно:"
+				"От ручки к автокрафтеру"
+				"Переходы должны быть всегда с маленькой шестерни на большую"
+				"К автокрафтеру присоединяйте большую шестерню"
+				"- Умирать не стоит: макс жизни теряются"
+				"- Чтобы их восстановить - убейте 25 свиней"
+			]
+			id: "363A0EBC00854DF4"
+			tasks: [{
+				id: "56B1BBDB67593697"
+				type: "checkmark"
+				title: "Вводная в модпак"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -4.0d
+			dependencies: ["125D5124D951A27F"]
+			id: "21738E91A40AF9A0"
+			tasks: [{
+				id: "3D8CA1605BD8E4EB"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+			rewards: [
+				{
+					id: "15643EAE977EC659"
+					type: "item"
+					item: {
+						id: "adfinders:metal_finder"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F51D707A4B234C5"
+					type: "item"
+					item: {
+						id: "adfinders:mineral_finder"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: -2.0d
+			dependencies: ["62393914D392C28A"]
+			id: "3A7EE96B8ED417D6"
+			tasks: [{
+				id: "42953E0C0BB50B6E"
+				type: "item"
+				item: "minecraft:chipped_anvil"
+			}]
+			rewards: [{
+				id: "79E837608FFCCF49"
+				type: "item"
+				team_reward: true
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -2.0d
+			id: "62393914D392C28A"
+			tasks: [{
+				id: "281FA1689785B944"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 30L
+			}]
+		}
+	]
+}

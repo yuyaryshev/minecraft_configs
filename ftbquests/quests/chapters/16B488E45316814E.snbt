@@ -1,0 +1,51 @@
+{
+	id: "16B488E45316814E"
+	group: ""
+	order_index: 4
+	filename: "16B488E45316814E"
+	title: "Железный век"
+	icon: {
+		id: "minecraft:iron_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -1.0d
+			id: "2F52B7581D275936"
+			tasks: [{
+				id: "2578056CF4938C81"
+				type: "item"
+				item: "create_modpack_glue:iron_weapon_ingot"
+				count: 5L
+			}]
+			rewards: [{
+				id: "2DC307EEBFA3894E"
+				type: "item"
+				item: "minecraft:raw_iron_block"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "4994CCD32428F65A"
+			tasks: [{
+				id: "506CC561B8003519"
+				type: "item"
+				item: "create_modpack_glue:steel_weapon_ingot"
+				count: 5L
+			}]
+			rewards: [{
+				id: "42B65C310BB82D41"
+				type: "xp"
+				xp: 300
+			}]
+		}
+	]
+}

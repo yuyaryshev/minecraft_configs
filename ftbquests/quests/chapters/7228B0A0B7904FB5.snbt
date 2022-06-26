@@ -1,0 +1,11 @@
+{
+	id: "7228B0A0B7904FB5"
+	group: ""
+	order_index: 7
+	filename: "7228B0A0B7904FB5"
+	title: "Эпоха путешествий"
+	icon: "artifacts:superstitious_hat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

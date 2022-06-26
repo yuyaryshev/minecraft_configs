@@ -1,0 +1,78 @@
+{
+  "profession": "weaponsmith",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:andesite",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:cobblestone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 1000,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "create:super_glue",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:iron_block",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 100000,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+	
+	
+	    {
+      "offer": {
+        "itemKey": "create:brass_ingot",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:big_cogwheel_pack",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 1000000,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+		
+	    {
+      "offer": {
+        "itemKey": "create:blaze_burner",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:big_food_pack",
+        "amount": 64,
+        "priceModifier": 0
+      },
+	  "additionalRequest": {
+        "itemKey": "kubejs:big_cogwheel_pack",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "tradeExp": 6000,
+      "maxUses": 5,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+	id: "316BEF41638311B3"
+	group: ""
+	order_index: 2
+	filename: "316BEF41638311B3"
+	title: "Эпоха автоматизации"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: [
+				"03032203F5519E6A"
+				"68C32AE6F10C4BD5"
+			]
+			id: "775FF89DA3116C16"
+			tasks: [{
+				id: "20AAEE3F6089ECB4"
+				type: "item"
+				item: "create:dough"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: [
+				"0B9651AA49111416"
+				"36106C4A4B58FAFF"
+			]
+			id: "03032203F5519E6A"
+			tasks: [{
+				id: "38237AA6A19F0EB8"
+				type: "item"
+				item: "create:wheat_flour"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			dependencies: [
+				"0461546273CF2AAD"
+				"6CFB79D004C9875B"
+			]
+			id: "68C32AE6F10C4BD5"
+			tasks: [{
+				id: "00A744BA1AC63FBB"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [
+				{
+					id: "3025B39877A877D2"
+					type: "item"
+					item: "create:clutch"
+				}
+				{
+					id: "2D8DAD92495CEE11"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "4106222856B4FC42"
+					type: "item"
+					item: "create:water_wheel"
+					count: 4
+				}
+				{
+					id: "3F6F41AEBC7EA251"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			id: "0461546273CF2AAD"
+			tasks: [{
+				id: "35E00E6BC55C2C75"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			id: "36106C4A4B58FAFF"
+			tasks: [{
+				id: "1477B4AE96784BE5"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			title: "Настоящий хлеб"
+			x: 1.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["775FF89DA3116C16"]
+			id: "0976E8ECDA42086E"
+			tasks: [{
+				id: "3BD59ECE85CBB1B1"
+				type: "item"
+				item: "minecraft:bread"
+				count: 64L
+			}]
+			rewards: [{
+				id: "459066295261F266"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 5
+			}]
+		}
+		{
+			x: -14.0d
+			y: -5.0d
+			id: "51A7E603AFAD861A"
+			tasks: [{
+				id: "1C7850948B4C10B6"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 3L
+			}]
+			rewards: [{
+				id: "4C8500AC35F5DECC"
+				type: "item"
+				item: "create:speedometer"
+			}]
+		}
+		{
+			title: "Что, опять хлеб?"
+			x: -12.0d
+			y: -5.0d
+			shape: "gear"
+			description: [
+				"Что, опять хлеб?"
+				"А... это уже быстрый хлеб"
+				"Так это совсем другое дело!"
+				"Вы ведь использовали три воронки + автокрафтеры?"
+			]
+			dependencies: ["51A7E603AFAD861A"]
+			id: "56A5737D341E16EB"
+			tasks: [{
+				id: "4B1CE34E9F1B2630"
+				type: "item"
+				item: "minecraft:bread"
+				count: 64L
+			}]
+			rewards: [{
+				id: "0808D9ED795F3E03"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 9
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: [
+				"6CFB79D004C9875B"
+				"3D0CEFA5705B4C8D"
+			]
+			id: "091E9B99965C6B61"
+			tasks: [{
+				id: "6D713CFF9CA1FC27"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			dependencies: ["56A5737D341E16EB"]
+			id: "16EFA5D14980E459"
+			tasks: [{
+				id: "3A3E1448999D9C12"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 8L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.0d
+			id: "2DBBD079AFFEC2FD"
+			tasks: [{
+				id: "39A44D13296D6771"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			id: "663DADE81B8EB271"
+			tasks: [{
+				id: "62F23129D921BFC7"
+				type: "item"
+				item: "create:gearbox"
+				count: 8L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -9.0d
+			id: "47E67BEA778A7F98"
+			tasks: [{
+				id: "5E6CC5D3E7565BBC"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			id: "1BEAC0C1751C23AD"
+			tasks: [{
+				id: "16D6EACC988CF75B"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -1.0d
+			description: ["Не забудь отключить пресс, когда он не нужен! Вот выключатель."]
+			dependencies: [
+				"1BEAC0C1751C23AD"
+				"012D18281122F33D"
+			]
+			dependency_requirement: "all_started"
+			id: "649B94836CB637A0"
+			tasks: [{
+				id: "57E513AFE6E2B2D5"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "0DD5B880206A0A59"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "0BDEB00E14D4F751"
+					type: "item"
+					item: "create:clutch"
+				}
+				{
+					id: "49ABCF68076F7A2B"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_crafter"
+			x: -8.0d
+			y: -7.0d
+			shape: "gear"
+			dependencies: [
+				"16EFA5D14980E459"
+				"2DBBD079AFFEC2FD"
+				"47E67BEA778A7F98"
+			]
+			id: "6D9BC00E61F3154D"
+			tasks: [{
+				id: "5111A8C75A52987C"
+				type: "checkmark"
+				title: "Крафт на полу-автомате!"
+			}]
+			rewards: [{
+				id: "1574DFA404B4F4DE"
+				type: "item"
+				team_reward: true
+				item: "create:andesite_alloy"
+				count: 32
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			dependencies: [
+				"16EFA5D14980E459"
+				"2DBBD079AFFEC2FD"
+				"45E1006FA44A7481"
+			]
+			id: "226985A04E194639"
+			tasks: [{
+				id: "0243A471BBF81E7F"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 1000L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "414D2B5DA7A65542"
+				type: "item"
+				item: "create:water_wheel"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["226985A04E194639"]
+			id: "683A6E1AAC42D15D"
+			tasks: [{
+				id: "7B7CB2D5C4F4FE98"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 128L
+			}]
+			rewards: [{
+				id: "3CAD4D466A2B5929"
+				type: "item"
+				item: "minecraft:cauldron"
+				count: 2
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			dependencies: ["649B94836CB637A0"]
+			id: "6CFB79D004C9875B"
+			tasks: [{
+				id: "23CAD43DB2861102"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+			rewards: [
+				{
+					id: "4EDFA8288ADF56E8"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 16
+				}
+				{
+					id: "2D16BFCE45518DB6"
+					type: "item"
+					item: "minecraft:raw_iron_block"
+				}
+				{
+					id: "21C0DA08177B8F8A"
+					type: "item"
+					item: "create:water_wheel"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			dependencies: ["1BEAC0C1751C23AD"]
+			id: "3D0CEFA5705B4C8D"
+			tasks: [{
+				id: "6CC4A1A192C45F09"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [
+				{
+					id: "5259B37DC4871B13"
+					type: "item"
+					item: "create:clutch"
+					count: 3
+				}
+				{
+					id: "55841FDF59F9D194"
+					type: "item"
+					item: "minecraft:lever"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: [
+				"091E9B99965C6B61"
+				"7D70B797E13F02FE"
+			]
+			id: "2A8B031BBC023DDD"
+			tasks: [{
+				id: "3A58F0CA0B4D317B"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+				count: 10L
+			}]
+			rewards: [{
+				id: "28B0A65440D15B20"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: [
+				"091E9B99965C6B61"
+				"7D70B797E13F02FE"
+				"72B1F6751D332FEA"
+			]
+			id: "0B9651AA49111416"
+			tasks: [{
+				id: "4D709F052CC4D42F"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 192L
+			}]
+			rewards: [
+				{
+					id: "7458821179688360"
+					type: "item"
+					item: "create:water_wheel"
+					count: 4
+				}
+				{
+					id: "4C75747D9328525A"
+					type: "item"
+					item: "create:mechanical_harvester"
+					count: 5
+				}
+				{
+					id: "25CC9DE8F60A537B"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "673CB40903536A8F"
+					type: "item"
+					item: "create:radial_chassis"
+					count: 8
+				}
+				{
+					id: "199C60FC0AAF1917"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			id: "4B4F7C000621A180"
+			tasks: [{
+				id: "15423FDF582215B9"
+				type: "item"
+				item: "minecraft:pointed_dripstone"
+				count: 10L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["4B4F7C000621A180"]
+			id: "11B7369DE83A880F"
+			tasks: [{
+				id: "7D1C2D3928246964"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+			rewards: [
+				{
+					id: "52A2C8F59912D2AB"
+					type: "item"
+					item: "minecraft:raw_iron_block"
+				}
+				{
+					id: "282E7360EFBD4399"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "gear"
+			dependencies: [
+				"0BA1235D30632E3B"
+				"3E4E8F8713411045"
+			]
+			id: "2FD283E4F2811A76"
+			tasks: [{
+				id: "2C73DC2F44709457"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 256L
+			}]
+			rewards: [{
+				id: "38777ACDEF1331E8"
+				type: "item"
+				item: "minecraft:bone_block"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["0070E996CD2BBFF2"]
+			id: "6FEE049EF4A6F887"
+			tasks: [{
+				id: "64B83AF52CC3750C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 64L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			dependencies: ["6CFB79D004C9875B"]
+			id: "45E1006FA44A7481"
+			tasks: [{
+				id: "527B7D02ABA6BDBE"
+				type: "item"
+				item: "create:mechanical_drill"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5BE0AD7FCBD7939D"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			dependencies: ["6CFB79D004C9875B"]
+			id: "7B3C162C6247F00C"
+			tasks: [{
+				id: "679CFA17FF252C09"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.0d
+			dependencies: ["6CFB79D004C9875B"]
+			id: "6BBB6FE679369187"
+			tasks: [{
+				id: "7433A29BDEDAACDD"
+				type: "item"
+				item: "create:mechanical_saw"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6CB1D972C43B37E9"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			id: "7D70B797E13F02FE"
+			tasks: [{
+				id: "4AECD0DC81501792"
+				type: "item"
+				item: "create:portable_storage_interface"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3D803D6F00E9F7B3"
+				type: "item"
+				item: "minecraft:raw_iron_block"
+				count: 2
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			id: "72B1F6751D332FEA"
+			tasks: [{
+				id: "15CAE32DEB3689BD"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["7B3C162C6247F00C"]
+			id: "0070E996CD2BBFF2"
+			tasks: [{
+				id: "388F45529F56C95A"
+				type: "item"
+				item: "create:encased_fan"
+				count: 2L
+			}]
+			rewards: [{
+				id: "172BD9D07A178F86"
+				type: "item"
+				item: "minecraft:raw_iron_block"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			dependencies: [
+				"510B19737116B75D"
+				"72B1F6751D332FEA"
+			]
+			id: "75C174DD6495B7DF"
+			tasks: [{
+				id: "0430C6415D37E77C"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "0144101532FC340D"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			shape: "gear"
+			dependencies: [
+				"6BBB6FE679369187"
+				"75C174DD6495B7DF"
+			]
+			id: "5C2C6F8ACFB270C2"
+			tasks: [{
+				id: "2037BA3494AC4770"
+				type: "item"
+				item: "minecraft:spruce_log"
+				count: 512L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			id: "510B19737116B75D"
+			tasks: [{
+				id: "56862FDE3CD4FD49"
+				type: "item"
+				item: "minecraft:rail"
+				count: 64L
+			}]
+			rewards: [{
+				id: "14705393B85D7FB6"
+				type: "item"
+				item: "minecraft:powered_rail"
+				count: 6
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.0d
+			dependencies: [
+				"466762E7910E149C"
+				"26E299D044B49E8D"
+			]
+			id: "48A282EA295C3773"
+			tasks: [{
+				id: "610537E711DA68AC"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			id: "466762E7910E149C"
+			tasks: [{
+				id: "61736501E9AB3155"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: [
+				"226985A04E194639"
+				"36106C4A4B58FAFF"
+			]
+			id: "0BA1235D30632E3B"
+			tasks: [{
+				id: "2C953F827CF17595"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			shape: "gear"
+			dependencies: [
+				"6FEE049EF4A6F887"
+				"2FD283E4F2811A76"
+			]
+			id: "76101F364B05585E"
+			tasks: [{
+				id: "249FB73720BED090"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "66475E8501B99ABC"
+					type: "item"
+					item: {
+						id: "adfinders:gem_finder"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C14D9F6BB1F82B0"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 24
+				}
+			]
+		}
+		{
+			title: "Доп. пресс для андезита"
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["649B94836CB637A0"]
+			id: "3E4E8F8713411045"
+			tasks: [{
+				id: "1496F0272F2D2FA9"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			id: "145E23BFF8824AE9"
+			tasks: [{
+				id: "60AFF114928EC9ED"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			shape: "gear"
+			dependencies: [
+				"145E23BFF8824AE9"
+				"11B7369DE83A880F"
+				"48A282EA295C3773"
+			]
+			id: "06E5FD0F8AC08949"
+			tasks: [{
+				id: "17F8D293924B2638"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 64L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -11.0d
+			id: "26E299D044B49E8D"
+			tasks: [{
+				id: "69513E87C6550EB4"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			dependencies: ["649B94836CB637A0"]
+			id: "66F08A5B23BC0125"
+			tasks: [{
+				id: "417DA512C72FE0A7"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -1.0d
+			dependencies: ["6010BABF484A75AD"]
+			id: "012D18281122F33D"
+			tasks: [{
+				id: "758934F1C5047798"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 5L
+			}]
+			rewards: [{
+				id: "500DE24D7A464F2E"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			dependencies: ["649B94836CB637A0"]
+			id: "1816F19FDF2B28E9"
+			tasks: [{
+				id: "0FEAE22E96206977"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [
+				{
+					id: "351A2F77B167B11B"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "573B13861DCE57A8"
+					type: "item"
+					item: "minecraft:compass"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["19CA4999E53A3465"]
+			id: "748CB6EF75564B47"
+			tasks: [{
+				id: "667350BABE689AEC"
+				type: "item"
+				item: "minecraft:sand"
+				count: 128L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -4.0d
+			id: "19CA4999E53A3465"
+			tasks: [{
+				id: "7623C8891F9BFCA2"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+			rewards: [
+				{
+					id: "67256AB050B71330"
+					type: "item"
+					item: "minecraft:raw_iron_block"
+				}
+				{
+					id: "0B204923CB6B914E"
+					type: "item"
+					item: "minecraft:raw_copper_block"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			shape: "gear"
+			dependencies: [
+				"06E5FD0F8AC08949"
+				"0070E996CD2BBFF2"
+			]
+			id: "751F34828A246464"
+			tasks: [{
+				id: "4D70D7A2D0D40212"
+				type: "item"
+				item: "minecraft:glass"
+				count: 128L
+			}]
+			rewards: [
+				{
+					id: "08027F1D368D0974"
+					type: "item"
+					item: "minecraft:raw_gold_block"
+				}
+				{
+					id: "7ADC36CCBC2DBBDC"
+					type: "item"
+					item: "create:water_wheel"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -1.0d
+			id: "6010BABF484A75AD"
+			tasks: [{
+				id: "2E7191299DB75116"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

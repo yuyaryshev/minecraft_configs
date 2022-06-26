@@ -1,0 +1,39 @@
+
+["Enable or Disable Enchantments"]
+	enhanced_protection = true
+	enhanced_unbreaking = false
+	feasting = true
+	delicate = false
+	enhanced_handling = true
+	enhanced_sharpness = true
+	lifestealing_arrows = true
+	night_vision_ench = true
+	decay = false
+	final_stand = false
+	ground_pound = false
+	springy = false
+	blessed_weapon = false
+	dull_edge = false
+	fiery_thorns = true
+	vitality = true
+	enhanced_fire_aspect = true
+	enhanced_locomotion = true
+	enhanced_thorns = true
+	tnt_miner = false
+	lightning = true
+	"XP++ for Weapon" = false
+	webbing = true
+	water_breathing = true
+	jugger_nog = true
+	enhanced_efficiency = true
+	praise_the_sun = false
+	slowness = false
+	"XP++ for Tool" = false
+	exploding_arrows = true
+	savior = false
+	heavy = false
+	horse_shoe = false
+	disengage = false
+	insta_kill = false
+	wither = false
+

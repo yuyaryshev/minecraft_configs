@@ -1,0 +1,548 @@
+{
+	id: "7A1798C0EF573265"
+	group: ""
+	order_index: 3
+	filename: "7A1798C0EF573265"
+	title: "Эпоха стипанк"
+	icon: "create:flywheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: [
+				"134047C7E55F73A6"
+				"0EC316EDBAF80BCE"
+			]
+			id: "3E6A30790940597D"
+			tasks: [{
+				id: "668D5327D1B1E3B4"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 9L
+			}]
+			rewards: [{
+				id: "67CE3CE4D45679D6"
+				type: "item"
+				team_reward: true
+				item: "create:builders_tea"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.0d
+			dependencies: ["63C4958148724D8C"]
+			id: "0EC316EDBAF80BCE"
+			tasks: [{
+				id: "300B4B7467403AFD"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			dependencies: [
+				"69633024735614B7"
+				"396091FA3CA6252C"
+			]
+			dependency_requirement: "one_completed"
+			id: "63C4958148724D8C"
+			tasks: [{
+				id: "6051C2486084336F"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "76FF4F91324B0E1D"
+				type: "item"
+				team_reward: true
+				item: "create:builders_tea"
+				count: 20
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["415FCBBE9A0FD8DC"]
+			id: "09AC2D9C215639C0"
+			tasks: [{
+				id: "2E7C0FC67F8B4EEE"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				count: 16L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: [
+				"466499AAC20140BC"
+				"694FC6251D5FD711"
+			]
+			id: "415FCBBE9A0FD8DC"
+			tasks: [{
+				id: "282F7C4203C56A5C"
+				type: "item"
+				item: "create:rose_quartz"
+				count: 16L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["60364F10B4365599"]
+			id: "466499AAC20140BC"
+			tasks: [{
+				id: "4BED49CEC8D67D4B"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 64L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["09AC2D9C215639C0"]
+			id: "134047C7E55F73A6"
+			tasks: [{
+				id: "1F7191D950F16307"
+				type: "item"
+				item: "create:electron_tube"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0E54989CE85FFD75"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 5
+			}]
+		}
+		{
+			title: "Горелка всполоха - обмен в деревне"
+			x: -11.0d
+			y: 1.0d
+			dependencies: [
+				"357595C7BE1DD126"
+				"0795D89C220C804B"
+			]
+			id: "69633024735614B7"
+			tasks: [{
+				id: "2C90ACD1A40BD097"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			dependencies: ["5DDCD616F5B7FBCC"]
+			id: "357595C7BE1DD126"
+			tasks: [{
+				id: "62CE57FE7D6CEFA8"
+				type: "item"
+				item: "create_modpack_glue:big_cogwheel_pack"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			dependencies: ["065016EAA32A6EF1"]
+			id: "0795D89C220C804B"
+			tasks: [{
+				id: "3FC251BD13B2F4C4"
+				type: "item"
+				item: "create_modpack_glue:big_food_pack"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -2.0d
+			shape: "gear"
+			description: ["Редстоун. Его нужно просто добыть в шахте. Автоматизация будет позднее - через зелья, она - сложная."]
+			dependencies: ["6FAB1AE3C218B97B"]
+			id: "694FC6251D5FD711"
+			tasks: [{
+				id: "315DF1D4AD437405"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 128L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 4.0d
+			id: "5529D41189A577C7"
+			tasks: [{
+				id: "41B063264592A459"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 6.0d
+			id: "03C96C1B3B2760C6"
+			tasks: [{
+				id: "4EC5AC88231E2D8C"
+				type: "kill"
+				icon: "tconstruct:blaze_head"
+				entity: "minecraft:blaze"
+				value: 1L
+			}]
+		}
+		{
+			title: "Горелка всполоха - поймать в незере"
+			x: -11.0d
+			y: 5.0d
+			dependencies: ["5529D41189A577C7"]
+			id: "396091FA3CA6252C"
+			tasks: [{
+				id: "163C7BC9CB72A3A8"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 0.0d
+			dependencies: [
+				"4F325133713493ED"
+				"3BBCF489CA5F4C7C"
+			]
+			id: "5DDCD616F5B7FBCC"
+			tasks: [{
+				id: "21CB9A97AFDFC3CD"
+				type: "item"
+				item: "create_modpack_glue:small_cogwheel_pack"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 2.0d
+			dependencies: [
+				"4E1B94F02EF49513"
+				"0789767DB5F3CE28"
+			]
+			id: "065016EAA32A6EF1"
+			tasks: [{
+				id: "36ECA8C4AFCB0386"
+				type: "item"
+				item: "create_modpack_glue:small_food_pack"
+			}]
+		}
+		{
+			x: -19.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["6FAB1AE3C218B97B"]
+			id: "4F325133713493ED"
+			tasks: [{
+				id: "34C89CB64F8DC2E3"
+				type: "item"
+				item: "create:cogwheel"
+				count: 160L
+			}]
+		}
+		{
+			x: -21.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["6FAB1AE3C218B97B"]
+			id: "3BBCF489CA5F4C7C"
+			tasks: [{
+				id: "3F16AAD6F7E51320"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 64L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["3BBCF489CA5F4C7C"]
+			id: "4E1B94F02EF49513"
+			tasks: [{
+				id: "633BE723F28A19C4"
+				type: "item"
+				item: "minecraft:egg"
+				count: 64L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["4F325133713493ED"]
+			id: "0789767DB5F3CE28"
+			tasks: [{
+				id: "3479E8C66F0FEF67"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 64L
+			}]
+		}
+		{
+			x: -23.0d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["76101F364B05585E"]
+			id: "6FAB1AE3C218B97B"
+			tasks: [{
+				id: "619A888205A67371"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 64L
+			}]
+		}
+		{
+			x: -23.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["748CB6EF75564B47"]
+			id: "4F6C7422AC609985"
+			tasks: [{
+				id: "271D45E0B40F8263"
+				type: "item"
+				item: "minecraft:sand"
+				count: 128L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["4F6C7422AC609985"]
+			id: "60364F10B4365599"
+			tasks: [{
+				id: "6F28C2D392E99297"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 64L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["0EC316EDBAF80BCE"]
+			id: "1D00022AF1CA1456"
+			tasks: [{
+				id: "619E6B24A46DDFAD"
+				type: "item"
+				item: "create:furnace_engine"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["1D00022AF1CA1456"]
+			id: "5778F07FBF90B65E"
+			tasks: [{
+				id: "57806AFB2F03F4BC"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["63C4958148724D8C"]
+			id: "1D7C2F904B107790"
+			tasks: [{
+				id: "6857DA8932E927B3"
+				type: "item"
+				item: "create:brass_hand"
+				count: 5L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: [
+				"0EC316EDBAF80BCE"
+				"0C198976476A0E0E"
+			]
+			id: "22C674DC576A876D"
+			tasks: [{
+				id: "1A11714E00EDE09C"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["2375ECC839C295AA"]
+			id: "0C198976476A0E0E"
+			tasks: [{
+				id: "2167E9DC1666A2B3"
+				type: "item"
+				item: "create:precision_mechanism"
+				count: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: [
+				"134047C7E55F73A6"
+				"1D7C2F904B107790"
+			]
+			id: "2375ECC839C295AA"
+			tasks: [{
+				id: "79498758DB7CFBD5"
+				type: "item"
+				item: "create:deployer"
+				count: 5L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["0C198976476A0E0E"]
+			id: "61CF30C7339015DF"
+			tasks: [{
+				id: "3F319748F7D0E402"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 6.0d
+			shape: "gear"
+			id: "7707258C9DA143CC"
+			tasks: [{
+				id: "1A7BAFFCE18F9C0E"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["3E6A30790940597D"]
+			dependency_requirement: "one_completed"
+			id: "6F5318FBA28259BF"
+			tasks: [{
+				id: "4BE3466099C84957"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			shape: "gear"
+			id: "3948E27B0DD325A7"
+			tasks: [{
+				id: "41B96C3E2C4180D0"
+				type: "item"
+				item: "createaddition:iron_rod"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 6.0d
+			shape: "gear"
+			id: "72D093CA24102678"
+			tasks: [{
+				id: "634FDCAC3119DA49"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 10.0d
+			shape: "gear"
+			id: "30EF1AD8D2A16E31"
+			tasks: [{
+				id: "42C00D5FE412E88D"
+				type: "item"
+				item: "createaddition:capacitor"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			shape: "gear"
+			id: "20C7AC7568D09752"
+			tasks: [{
+				id: "0672CDB2BD8939E2"
+				type: "item"
+				item: "createaddition:spool"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 8.0d
+			shape: "gear"
+			id: "0D618135DF55398C"
+			tasks: [{
+				id: "1BFDB78E21E3D348"
+				type: "item"
+				item: "createaddition:copper_wire"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			shape: "gear"
+			id: "29F475C92E1FE928"
+			tasks: [{
+				id: "0577F58846CDC173"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.0d
+			shape: "gear"
+			id: "067546530BC15683"
+			tasks: [{
+				id: "03B3834EC4B37FB9"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.0d
+			shape: "gear"
+			id: "3989C544BCC3C799"
+			tasks: [{
+				id: "7E0EC60FF1FBF1A8"
+				type: "item"
+				item: "create:brass_sheet"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 12.0d
+			shape: "gear"
+			id: "385CF6785368D6DA"
+			tasks: [{
+				id: "4B98FF9C0063AAAF"
+				type: "item"
+				item: "create:golden_sheet"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 6.0d
+			shape: "gear"
+			id: "33D7E4F466DFBD63"
+			tasks: [{
+				id: "3D764AA10D560073"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+		}
+	]
+}

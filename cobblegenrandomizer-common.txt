@@ -1,0 +1,153 @@
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+
+#General settings
+[general]
+	#Use config instead of datapack
+	use_config = true
+
+	#List settings
+	#Syntax: ["modid:block|weight"]
+	#Example: ["minecraft:stone|2","minecraft:dirt|1"]
+	#Forge tags are supported
+	[general.lists]
+		#Cobble gen
+		#block_list_cobble = ["minecraft:cobblestone|60", "minecraft:coal_ore|25", "minecraft:iron_ore|20", "minecraft:redstone_ore|20", "minecraft:lapis_ore|20", "minecraft:emerald_ore|5", "minecraft:gold_ore|10", "minecraft:diamond_ore|5"]
+		block_list_cobble = ["minecraft:cobblestone|60", "minecraft:diorite|20", "minecraft:andesite|5"]
+		
+		#Stone gen
+		#block_list_stone = ["minecraft:stone|30", "minecraft:granite|10", "minecraft:diorite|10", "minecraft:andesite|10"]
+		block_list_stone = ["minecraft:cobblestone|60", "minecraft:diorite|20", "minecraft:andesite|5"]
+		
+		#Basalt gen
+		block_list_basalt = ["minecraft:basalt|60", "minecraft:blackstone|60", "minecraft:netherrack|60"]
+
+		#Custom settings
+		[general.lists.custom]
+			#Custom generators
+			#Syntax: [gen]
+			#Gen: [type, block, list]
+			#Type: cobblestone, stone
+			#Block: resource location of the block below the generated block
+			#List: see List settings
+			#Examples:
+			#custom_generators = [
+			#   ["cobblestone", "minecraft:diamond_block", ["minecraft:diamond_block"]],
+			#   ["cobblestone", "minecraft:dirt", ["forge:dirt"]],
+			#   ["cobblestone", "minecraft:white_wool", ["minecraft:wool"]]]
+			custom_generators = [
+				["cobblestone", "minecraft:iron_ore", ["create_modpack_glue:poor_iron_ore"]],
+				["cobblestone", "minecraft:deepslate_iron_ore", ["create_modpack_glue:rich_iron_ore"]],
+
+				["cobblestone", "minecraft:copper_ore", ["create_modpack_glue:poor_copper_ore"]],
+				["cobblestone", "minecraft:deepslate_copper_ore", ["create_modpack_glue:rich_copper_ore"]],
+
+				["cobblestone", "create:zinc_ore", ["create_modpack_glue:poor_zinc_ore"]],
+				["cobblestone", "create:deepslate_zinc_ore", ["create_modpack_glue:rich_zinc_ore"]],
+
+				["cobblestone", "minecraft:gold_ore", ["create_modpack_glue:poor_gold_ore"]],
+				["cobblestone", "minecraft:deepslate_gold_ore", ["create_modpack_glue:rich_gold_ore"]],
+
+				["cobblestone", "tconstruct:cobalt_ore", ["create_modpack_glue:poor_cobalt_ore"]],
+				["cobblestone", "tconstruct:deepslate_cobalt_ore", ["create_modpack_glue:rich_cobalt_ore"]],
+
+				["cobblestone", "occultism:silver_ore", ["create_modpack_glue:poor_silver_ore"]],
+				["cobblestone", "occultism:silver_ore_deepslate", ["create_modpack_glue:rich_silver_ore"]],
+				
+				["cobblestone", "minecraft:redstone_ore", ["create_modpack_glue:poor_redstone_ore"]],
+				["cobblestone", "minecraft:deepslate_redstone_ore", ["create_modpack_glue:rich_redstone_ore"]],
+
+				["cobblestone", "minecraft:diamond_ore", ["create_modpack_glue:poor_diamond_ore"]],
+				["cobblestone", "minecraft:deepslate_diamond_ore", ["create_modpack_glue:rich_diamond_ore"]],
+
+				["cobblestone", "minecraft:emerald_ore", ["create_modpack_glue:poor_emerald_ore"]],
+				["cobblestone", "minecraft:deepslate_emerald_ore", ["create_modpack_glue:rich_emerald_ore"]],
+
+				["stone", "minecraft:iron_ore", ["create_modpack_glue:poor_iron_ore"]],
+				["stone", "minecraft:deepslate_iron_ore", ["create_modpack_glue:rich_iron_ore"]],
+
+				["stone", "minecraft:copper_ore", ["create_modpack_glue:poor_copper_ore"]],
+				["stone", "minecraft:deepslate_copper_ore", ["create_modpack_glue:rich_copper_ore"]],
+
+				["stone", "create:zinc_ore", ["create_modpack_glue:poor_zinc_ore"]],
+				["stone", "create:deepslate_zinc_ore", ["create_modpack_glue:rich_zinc_ore"]],
+
+				["stone", "minecraft:gold_ore", ["create_modpack_glue:poor_gold_ore"]],
+				["stone", "minecraft:deepslate_gold_ore", ["create_modpack_glue:rich_gold_ore"]],
+
+				["stone", "tconstruct:cobalt_ore", ["create_modpack_glue:poor_cobalt_ore"]],
+				["stone", "tconstruct:deepslate_cobalt_ore", ["create_modpack_glue:rich_cobalt_ore"]],
+
+				["stone", "occultism:silver_ore", ["create_modpack_glue:poor_silver_ore"]],
+				["stone", "occultism:silver_ore_deepslate", ["create_modpack_glue:rich_silver_ore"]],
+				
+				["stone", "minecraft:redstone_ore", ["create_modpack_glue:poor_redstone_ore"]],
+				["stone", "minecraft:deepslate_redstone_ore", ["create_modpack_glue:rich_redstone_ore"]],
+
+				["stone", "minecraft:diamond_ore", ["create_modpack_glue:poor_diamond_ore"]],
+				["stone", "minecraft:deepslate_diamond_ore", ["create_modpack_glue:rich_diamond_ore"]],
+
+				["stone", "minecraft:emerald_ore", ["create_modpack_glue:poor_emerald_ore"]],
+				["stone", "minecraft:deepslate_emerald_ore", ["create_modpack_glue:rich_emerald_ore"]],
+
+
+#				["cobblestone", "minecraft:coal_ore", ["minecraft:cobblestone|750","minecraft:coal_ore|250"]],
+#				["cobblestone", "minecraft:deepslate_coal_ore", ["minecraft:cobblestone|500","minecraft:coal_ore|500"]],
+#
+#				["cobblestone", "minecraft:XXX_ore", ["create_modpack_glue:poor_XXX_ore"]],
+#				["cobblestone", "minecraft:deepslate_XXX_ore", ["create_modpack_glue:rich_XXX_ore"]],
+#				
+#				["cobblestone", "minecraft:redstone_ore", ["minecraft:cobblestone|950","minecraft:redstone_ore|50"]],
+#				["cobblestone", "minecraft:deepslate_redstone_ore", ["minecraft:cobblestone|850","minecraft:redstone_ore|150"]],
+#
+#				["cobblestone", "minecraft:emerald_ore", ["minecraft:cobblestone|990","minecraft:emerald_ore|10"]],
+#				["cobblestone", "minecraft:deepslate_emerald_ore", ["minecraft:cobblestone|950","minecraft:emerald_ore|50"]],
+#				
+#				["cobblestone", "minecraft:lapis_ore", ["minecraft:cobblestone|950","minecraft:lapis_ore|50"]],
+#				["cobblestone", "minecraft:deepslate_lapis_ore", ["minecraft:cobblestone|850","minecraft:lapis_ore|150"]],
+#				
+#				["cobblestone", "minecraft:diamond_ore", ["minecraft:cobblestone|980","minecraft:diamond_ore|20"]],
+#				["cobblestone", "minecraft:deepslate_diamond_ore", ["minecraft:cobblestone|920","minecraft:diamond_ore|80"]],
+#				
+#				["cobblestone", "ae2:quartz_ore", ["minecraft:cobblestone|950","ae2:quartz_ore|50"]],
+#				["cobblestone", "ae2:deepslate_quartz_ore", ["minecraft:cobblestone|850","ae2:quartz_ore|150"]],
+#				
+#				["cobblestone", "mekanism:osmium_ore", ["minecraft:cobblestone|900","mekanism:osmium_ore|100"]],
+#				["cobblestone", "mekanism:deepslate_osmium_ore", ["minecraft:cobblestone|700","mekanism:osmium_ore|300"]],
+#				
+#				["cobblestone", "mekanism:tin_ore", ["minecraft:cobblestone|900","mekanism:tin_ore|100"]],
+#				["cobblestone", "mekanism:deepslate_tin_ore", ["minecraft:cobblestone|700","mekanism:tin_ore|300"]],
+#				
+#				["cobblestone", "mekanism:lead_ore", ["minecraft:cobblestone|900","mekanism:lead_ore|100"]],
+#				["cobblestone", "mekanism:deepslate_lead_ore", ["minecraft:cobblestone|700","mekanism:lead_ore|300"]],
+#				
+#				["cobblestone", "mekanism:uranium_ore", ["minecraft:cobblestone|980","mekanism:uranium_ore|20"]],
+#				["cobblestone", "mekanism:deepslate_uranium_ore", ["minecraft:cobblestone|920","mekanism:uranium_ore|80"]],
+#				
+#				["cobblestone", "minecraft:netherite_block", ["minecraft:netherrack|995","minecraft:ancient_debris|5"]],			
+#				
+#				["cobblestone", "minecraft:nether_quartz_ore", ["minecraft:nether_quartz_ore"]] # Use water washing instead!
+#				["cobblestone", "minecraft:quartz_block", ["minecraft:nether_quartz_ore"]] # Use water washing instead!
+#				["cobblestone", "minecraft:sand", ["minecraft:sand"]] # Use water washing instead!
+#
+#				["stone", "minecraft:dirt", ["minecraft:dirt"]],
+#				["cobblestone", "minecraft:dirt", ["minecraft:dirt"]],
+#				
+				["stone", "minecraft:stone", ["minecraft:stone"]],
+				["cobblestone", "minecraft:stone", ["minecraft:stone"]],
+				
+				["stone", "minecraft:cobblestone", ["minecraft:cobblestone"]],
+				["cobblestone", "minecraft:cobblestone", ["minecraft:cobblestone"]]
+				]
+
+
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+# YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY THIS IS BACKUP FILE YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY

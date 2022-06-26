@@ -1,0 +1,20 @@
+{
+	id: "7CE8603AD5666940"
+	group: ""
+	order_index: 5
+	filename: "7CE8603AD5666940"
+	title: "Алмазный век"
+	icon: "minecraft:diamond"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 1.5d
+		y: -0.5d
+		id: "645B80449DF3E996"
+		tasks: [{
+			id: "2AEC1476176091D4"
+			type: "item"
+			item: "create_modpack_glue:diamond_weapon_ingot"
+		}]
+	}]
+}

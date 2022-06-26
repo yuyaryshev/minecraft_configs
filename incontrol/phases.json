@@ -1,0 +1,22 @@
+[
+  {
+    "name": "at_day_after_start",
+    "conditions": {
+        "mindaycount":  0,
+		"maxtime":  14000
+	}
+  },{
+    "name": "during_sunset_after_start",
+    "conditions": {
+        "mindaycount":  0,
+		"mintime":  14000,
+		"maxtime":  16000
+    }
+  },{
+    "name": "at_night_after_start",
+    "conditions": {
+        "mindaycount":  0,
+		"mintime":  16000
+    }
+  }
+]

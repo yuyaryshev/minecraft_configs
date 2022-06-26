@@ -1,0 +1,344 @@
+{
+	id: "6DB570609799523D"
+	group: ""
+	order_index: 0
+	filename: "6DB570609799523D"
+	title: "Инструменты и Еда"
+	icon: {
+		id: "minecraft:stone_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: -8.0d
+			id: "4FFB46D9599C0228"
+			tasks: [{
+				id: "42E0CF5C1337764A"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			id: "3C699A54557936A5"
+			tasks: [{
+				id: "0C31D7F9CF39869B"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -11.0d
+			id: "4660F24B6074948E"
+			tasks: [{
+				id: "699CD45C7555F03C"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			id: "2B1577382A94553E"
+			tasks: [{
+				id: "19A9643AF3196CA1"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			id: "1496884A8B50DC2C"
+			tasks: [{
+				id: "5BFD5701AE1B805C"
+				type: "item"
+				item: "waterstrainer:string_mesh"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "11A25845FB306BE7"
+			tasks: [{
+				id: "2E67296DE1F243C0"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			id: "142266ED82C5E34F"
+			tasks: [{
+				id: "5F1F4B8DD0A27C1E"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "2BEFE50FDDDAEB45"
+			tasks: [{
+				id: "14E22FB7A3F71FF3"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "5BABD4C3FF22CBA5"
+			tasks: [{
+				id: "7886D5F3A596D42F"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "16C269F532111B74"
+			tasks: [{
+				id: "02E5AF664CDA0573"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "2CDA90E085913FAA"
+			tasks: [{
+				id: "3948D3DBF76C90D3"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "4FC1B25A0BFAF142"
+			tasks: [{
+				id: "1210D97B61AAD110"
+				type: "item"
+				item: "waterstrainer:worm"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "2AC09B6763BA4125"
+			tasks: [{
+				id: "756065298D0870B1"
+				type: "item"
+				item: {
+					id: "waterstrainer:garden_trowel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "5A4E397F3EEFE427"
+			tasks: [{
+				id: "52F6247780412668"
+				type: "item"
+				item: "waterstrainer:worm_bin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.0d
+			id: "3C5146CD67CEDDEC"
+			tasks: [{
+				id: "14A27150CCE8DF79"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			id: "7B8BD1DDD1A38654"
+			tasks: [{
+				id: "0C82228FF9C9A237"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 5.5f
+							"tconstruct:attack_damage": 0.54999995f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 168.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:dwarven"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:copper"
+							"tconstruct:copper"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			id: "4EBE9E388DC63B5F"
+			tasks: [{
+				id: "646B75BFC9BA387D"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:durability": 60.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -12.0d
+			id: "195EB2C02087D621"
+			tasks: [{
+				id: "5F98F9123151444A"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.0d
+			id: "5FFBF5F69A05039E"
+			tasks: [{
+				id: "4F86B46C7DEBC96F"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

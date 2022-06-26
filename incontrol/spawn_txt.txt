@@ -1,0 +1,135 @@
+[
+  {
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+    "seesky": true,
+	"incontrol":false,
+    "dimension": "minecraft:overworld",
+    "result": "default",
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+    "armorhelmet": ["minecraft:chainmail_helmet"]
+  },{
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+	"incontrol":true,
+    "seesky": true,
+    "dimension": "minecraft:overworld",
+    "result": "default",
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+	"maxlight": 1,
+    "armorhelmet": ["minecraft:leather_helmet"]
+  },{
+	"incontrol":true,
+	"seesky":false,
+    "result": "deny"
+  },{
+	"incontrol":true,
+	"minlight": 2,
+    "result": "deny"
+  },{
+    "minheight": 35,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "result": "default"
+  },
+  {
+    "minheight": 10,
+    "seesky": false,
+    "hostile": true,
+    "damagemultiply": 0.8,
+    "speedmultiply": 0.9,
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  }
+]
+
+HINTS:
+minlight & maxlight - are reversed!
+
+WORKS:
+{
+	"incontrol":true,
+    "armorhelmet": ["minecraft:leather_helmet"]
+  },
+  
+  
+  
+  ========================================================================
+  [
+  {
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+    "seesky": true,
+	"incontrol":false,
+    "dimension": "minecraft:overworld",
+    "result": "default",
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+    "armorhelmet": ["minecraft:chainmail_helmet"]
+  },{
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+	"incontrol":true,
+    "seesky": true,
+    "dimension": "minecraft:overworld",
+    "result": "allow",
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+	"maxlight": 1,
+    "armorhelmet": ["minecraft:leather_helmet"]
+  },{
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+	"incontrol":true,
+    "seesky": true,
+    "dimension": "minecraft:overworld",
+    "result": "allow",
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+	"minlight": 1,
+    "armorhelmet": ["minecraft:golden_helmet"]
+  },{
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+	"incontrol":true,
+    "seesky": true,
+	"result": "deny",
+	"minlight": 1
+  },{
+    "minheight": 35,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "result": "default"
+  },
+  {
+    "minheight": 10,
+    "seesky": false,
+    "hostile": true,
+    "damagemultiply": 0.8,
+    "speedmultiply": 0.9,
+    "dimension": "minecraft:overworld",
+    "result": "default"
+  }
+]
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  =

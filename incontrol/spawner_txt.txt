@@ -1,0 +1,73 @@
+[
+  {
+    "mob": ["minecraft:skeleton"],
+    "persecond": 0.2,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 14,
+      "maxdist": 60,
+      "maxthis": 100
+    }
+  },{
+    "mob": ["minecraft:zombie"],
+    "persecond": 0.2,
+    "attempts": 20,
+    "amount": {
+      "minimum": 4,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 14,
+      "maxdist": 60,
+      "maxthis": 200
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    "mob": ["minecraft:skeleton"],
+    "persecond": 1,
+    "attempts": 20,
+    "amount": {
+      "minimum": 20,
+      "maximum": 20
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 14,
+      "maxdist": 60,
+      "maxthis": 100
+    }
+  },{
+    "mob": ["minecraft:zombie"],
+    "persecond": 1,
+    "attempts": 20,
+    "amount": {
+      "minimum": 20,
+      "maximum": 20
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 14,
+      "maxdist": 60,
+      "maxthis": 200
+    }
+  }
+]

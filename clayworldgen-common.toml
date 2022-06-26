@@ -1,0 +1,25 @@
+
+#Config file for Clay WorldGen
+[SETTINGS]
+
+	#Maximum / Minimum Y-level to spawn Clay
+	[SETTINGS."Spawn Level"]
+		#Lowest Y-level the clay can spawn at
+		#Range: -1024 ~ 1024
+		botOffset = 32
+		#Highest Y-Level the clay can spawn at
+		#Range: -1024 ~ 1024
+		topOffset = 128
+
+	#Maximum vein size for Clay
+	[SETTINGS."Vein Size"]
+		#The vein size is randomized by default. This value only affect the max size a vein can potentially reach
+		#Range: 1 ~ 256
+		veinSize = 32
+
+	#Spawn rate for Clay
+	[SETTINGS."Spawn Rate"]
+		#Diamond = 1 | Gold = 2 | | Redstone = 8 | Granite/Diorite/Andesite = 10 | Iron/Coal = 20
+		#Range: 1 ~ 256
+		spawnRate = 2
+

@@ -1,0 +1,35 @@
+[
+  {
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+    "seesky": true,
+    "dimension": "minecraft:overworld",
+    "result": "allow",
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+    "armorhelmet": ["minecraft:leather_helmet"]
+  },  {
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+    "seesky": false,
+    "dimension": "minecraft:overworld",
+    "result": "deny",
+	"incontrol": true
+  },  {
+    "minheight": 35,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "result": "allow"
+  },
+  {
+    "minheight": 10,
+    "seesky": false,
+    "hostile": true,
+    "damagemultiply": 0.8,
+    "speedmultiply": 0.9,
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  }
+]
