@@ -28,9 +28,9 @@
 [burnerEfficiency]
 	#Fuel Tick to HU Convertion Percentage. 10HU=1mb of steam. 
 	#Range: 0.0 ~ 1.0
-	bronzeBurnerEfficiency = 0.8
+	bronzeBurnerEfficiency = 0.6
 	#Range: 0.0 ~ 1.0
-	castIronBurnerEfficiency = 0.9
+	castIronBurnerEfficiency = 0.8
 	#Range: 0.0 ~ 1.0
 	steelBurnerEfficiency = 1.0
 
@@ -38,29 +38,29 @@
 
 	[flywheel.bronze_flywheel]
 		#Range: 0 ~ 8192
-		bronzeFlywheelCapacity = 512
+		bronzeFlywheelCapacity = 2048
 		#Range: 0 ~ 8192
 		bronzeFlywheelSpeed = 32
 		#Range: 0 ~ 8192
 		bronzeFlywheelSteamConsumptionPerTick = 12
 		#Range: 0 ~ 1048576
-		bronzeFlywheelSteamStorage = 32000
+		bronzeFlywheelSteamStorage = 128000
 
 	[flywheel.cast_iron_flywheel]
 		#Range: 0 ~ 8192
-		castIronFlywheelCapacity = 1024
+		castIronFlywheelCapacity = 4096
 		#Range: 0 ~ 8192
-		castIronFlywheelSpeed = 32
+		castIronFlywheelSpeed = 64
 		#Range: 0 ~ 8192
 		castIronFlywheelSteamConsumptionPerTick = 24
 		#Range: 0 ~ 1048576
-		castIronFlywheelSteamStorage = 64000
+		castIronFlywheelSteamStorage = 256000
 
 	[flywheel.steel_flywheel]
 		#Range: 0 ~ 8192
-		steelFlywheelCapacity = 2048
+		steelFlywheelCapacity = 8192
 		#Range: 0 ~ 8192
-		steelFlywheelSpeed = 32
+		steelFlywheelSpeed = 128
 		#Range: 0 ~ 1048576
 		steelFlywheelSteamConsumptionPerTick = 48
 		#Range: 0 ~ 1048576
@@ -75,14 +75,14 @@
 	#Range: 0 ~ 8192
 	dynamoImpact = 16
 	#Range: 0.0 ~ 1.0
-	dynamoEfficiency = 0.75
+	dynamoEfficiency = 0.9
 
 [cogwheel]
 	#For those who want to make the game more challenging, you can add stress impact to cogwheels!
 	#Range: 0.0 ~ 1.0
-	bronzeCogwheelImpact = 0.0
+	bronzeCogwheelImpact = 0.2
 	#Range: 0.0 ~ 1.0
-	castIronCogwheelImpact = 0.0
+	castIronCogwheelImpact = 0.4
 	#Range: 0.0 ~ 1.0
 	steelCogwheelImpact = 0.0
 
