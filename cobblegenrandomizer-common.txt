@@ -94,6 +94,60 @@
 				["stone", "minecraft:emerald_ore", ["create_modpack_glue:poor_emerald_ore"]],
 				["stone", "minecraft:deepslate_emerald_ore", ["create_modpack_glue:rich_emerald_ore"]],
 
+#				["cobblestone", "create_modpack_glue:gen_iron_poor  _ore", ["create_modpack_glue:poor_iron_ore"]],
+#				["cobblestone", "create_modpack_glue:gen_iron_rich  _ore", ["create_modpack_glue:rich_iron_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  copper_ore", ["create_modpack_glue:poor_copper_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  copper_ore", ["create_modpack_glue:rich_copper_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  zinc_ore", ["create_modpack_glue:poor_zinc_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  zinc_ore", ["create_modpack_glue:rich_zinc_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  gold_ore", ["create_modpack_glue:poor_gold_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  gold_ore", ["create_modpack_glue:rich_gold_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  cobalt_ore", ["create_modpack_glue:poor_cobalt_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  cobalt_ore", ["create_modpack_glue:rich_cobalt_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  silver_ore", ["create_modpack_glue:poor_silver_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__poor  silver_ore_deepslate", ["create_modpack_glue:rich_silver_ore"]],
+#				
+#				["cobblestone", "create_modpack_glue:gen__poor  redstone_ore", ["create_modpack_glue:poor_redstone_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  redstone_ore", ["create_modpack_glue:rich_redstone_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  diamond_ore", ["create_modpack_glue:poor_diamond_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  diamond_ore", ["create_modpack_glue:rich_diamond_ore"]],
+#
+#				["cobblestone", "create_modpack_glue:gen__poor  emerald_ore", ["create_modpack_glue:poor_emerald_ore"]],
+#				["cobblestone", "create_modpack_glue:gen__rich  emerald_ore", ["create_modpack_glue:rich_emerald_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  iron_ore", ["create_modpack_glue:poor_iron_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  iron_ore", ["create_modpack_glue:rich_iron_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  copper_ore", ["create_modpack_glue:poor_copper_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  copper_ore", ["create_modpack_glue:rich_copper_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  zinc_ore", ["create_modpack_glue:poor_zinc_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  zinc_ore", ["create_modpack_glue:rich_zinc_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  gold_ore", ["create_modpack_glue:poor_gold_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  gold_ore", ["create_modpack_glue:rich_gold_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  cobalt_ore", ["create_modpack_glue:poor_cobalt_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  cobalt_ore", ["create_modpack_glue:rich_cobalt_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  silver_ore", ["create_modpack_glue:poor_silver_ore"]],
+#				["stone", "create_modpack_glue:gen__poor  silver_ore_deepslate", ["create_modpack_glue:rich_silver_ore"]],
+#				
+#				["stone", "create_modpack_glue:gen__poor  redstone_ore", ["create_modpack_glue:poor_redstone_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  redstone_ore", ["create_modpack_glue:rich_redstone_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  diamond_ore", ["create_modpack_glue:poor_diamond_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  diamond_ore", ["create_modpack_glue:rich_diamond_ore"]],
+#
+#				["stone", "create_modpack_glue:gen__poor  emerald_ore", ["create_modpack_glue:poor_emerald_ore"]],
+#				["stone", "create_modpack_glue:gen__rich  emerald_ore", ["create_modpack_glue:rich_emerald_ore"]],
+
 
 #				["cobblestone", "minecraft:coal_ore", ["minecraft:cobblestone|750","minecraft:coal_ore|250"]],
 #				["cobblestone", "minecraft:deepslate_coal_ore", ["minecraft:cobblestone|500","minecraft:coal_ore|500"]],
