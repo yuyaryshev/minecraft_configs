@@ -149,8 +149,8 @@
 #				["stone", "create_modpack_glue:gen__rich  emerald_ore", ["create_modpack_glue:rich_emerald_ore"]],
 
 
-#				["cobblestone", "minecraft:coal_ore", ["minecraft:cobblestone|750","minecraft:coal_ore|250"]],
-#				["cobblestone", "minecraft:deepslate_coal_ore", ["minecraft:cobblestone|500","minecraft:coal_ore|500"]],
+				["cobblestone", "minecraft:coal_ore", ["minecraft:coal_ore"]],
+				["cobblestone", "minecraft:deepslate_coal_ore", ["minecraft:coal_ore"]],
 #
 #				["cobblestone", "minecraft:XXX_ore", ["create_modpack_glue:poor_XXX_ore"]],
 #				["cobblestone", "minecraft:deepslate_XXX_ore", ["create_modpack_glue:rich_XXX_ore"]],
