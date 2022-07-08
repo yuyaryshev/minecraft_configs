@@ -4,19 +4,37 @@
     "seesky": true,
     "dimension": "minecraft:overworld",
     "result": "allow",
-    "healthmultiply": 0.7,
-    "damagemultiply": 0.3,
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.6,
     "speedmultiply": 0.8,
-    "armorhelmet": ["minecraft:leather_helmet"]
+    "armorhelmet": ["minecraft:leather_helmet","minecraft:chainmail_helmet"]
   }, {
     "mob": ["minecraft:skeleton"],
     "seesky": true,
     "dimension": "minecraft:overworld",
     "result": "allow",
-    "healthmultiply": 0.7,
-    "damagemultiply": 0.1,
+    "healthmultiply": 0.2,
+    "damagemultiply": 0.01,
+    "speedmultiply": 0.2,
+    "armorhelmet": ["minecraft:leather_helmet","minecraft:chainmail_helmet"]
+  },{
+    "mob": ["minecraft:creeper"],
+    "seesky": true,
+    "dimension": "minecraft:overworld",
+    "result": "allow",
+    "healthmultiply": 0.2,
+    "damagemultiply": 0.01,
+    "speedmultiply": 0.2,
+    "armorhelmet": ["minecraft:leather_helmet","minecraft:chainmail_helmet"]
+  },{
+    "mob": ["minecraft:spider"],
+    "seesky": true,
+    "dimension": "minecraft:overworld",
+    "result": "allow",
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.6,
     "speedmultiply": 0.8,
-    "armorhelmet": ["minecraft:leather_helmet"]
+    "armorhelmet": ["minecraft:leather_helmet","minecraft:chainmail_helmet"]
   }, {
     "mob": ["minecraft:skeleton","minecraft:zombie"],
     "seesky": false,
@@ -24,6 +42,16 @@
     "result": "deny",
 	"incontrol": true
   }, {
+    "mob": ["minecraft:skeleton"],
+    "minheight": 55,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.9,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.2,
+    "result": "allow"
+  },{
     "minheight": 55,
     "seesky": false,
     "hostile": true,
@@ -33,6 +61,26 @@
     "speedmultiply": 0.8,
     "result": "allow"
   },{
+    "mob": ["minecraft:skeleton"],
+    "minheight": 55,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.9,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.2,
+    "result": "allow"
+  },{
+    "mob": ["minecraft:skeleton"],
+    "minheight": 35,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.9,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.5,
+    "result": "allow"
+  },{
     "minheight": 35,
     "seesky": false,
     "hostile": true,
@@ -40,14 +88,43 @@
     "damagemultiply": 0.6,
     "speedmultiply": 0.8,
     "result": "allow"
-  },
-  {
+  },{
+    "mob": ["minecraft:skeleton"],
+    "minheight": 35,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.9,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.5,
+    "result": "allow"
+  },{
+    "mob": ["minecraft:skeleton"],
+    "minheight": 10,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.9,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "result": "allow"
+  },{
     "minheight": 10,
     "seesky": false,
     "hostile": true,
     "damagemultiply": 0.8,
     "speedmultiply": 0.9,
     "dimension": "minecraft:overworld",
+    "result": "allow"
+  },{
+    "mob": ["minecraft:skeleton"],
+    "minheight": 10,
+    "seesky": false,
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.9,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
     "result": "allow"
   }
 ]

@@ -6,5 +6,7 @@ chown -R minecraft /services/minecraft
 chmod +x /services/minecraft/config/git_update_and_restart.sh
 chmod +x /services/minecraft/config/git_update_only.sh
 systemctl restart minecraft
+cd /services/minecraft
+./watchlog.sh
 
 
